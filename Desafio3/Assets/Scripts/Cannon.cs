@@ -12,7 +12,7 @@ public class Cannon : MonoBehaviour
     void Start()
     {
         InvokeRepeating("Disparo", TiempoEspera, TiempoIntervalo);
-        Debug.Log("Disparo del cañon");
+        Debug.Log("Disparo inicial del cañon");
     }
 
     // Update is called once per frame
