@@ -154,7 +154,7 @@ Transform:
   m_LocalScale: {x: 2.703074, y: 5.7079544, z: 2.703074}
   m_Children: []
   m_Father: {fileID: 576287196}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &35025059
 CapsuleCollider:
@@ -250,7 +250,7 @@ Transform:
   m_LocalScale: {x: 6.8212934, y: 0.7736313, z: 6.8212934}
   m_Children: []
   m_Father: {fileID: 576287196}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &236388309
 CapsuleCollider:
@@ -342,6 +342,7 @@ Transform:
   m_LocalPosition: {x: 21.246136, y: 15.711955, z: -22.950808}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1966487610}
   - {fileID: 236388308}
   - {fileID: 672447024}
   - {fileID: 1777349820}
@@ -349,7 +350,6 @@ Transform:
   - {fileID: 35025058}
   - {fileID: 1756225619}
   - {fileID: 1462195119}
-  - {fileID: 1966487610}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -385,7 +385,7 @@ Transform:
   m_Children:
   - {fileID: 1725389921}
   m_Father: {fileID: 576287196}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 70, y: 0, z: 0}
 --- !u!136 &672447025
 CapsuleCollider:
@@ -753,7 +753,7 @@ Transform:
   m_LocalScale: {x: 1.8205203, y: 8.157676, z: 1.8205203}
   m_Children: []
   m_Father: {fileID: 576287196}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &1462195120
 CapsuleCollider:
@@ -945,7 +945,7 @@ Transform:
   m_LocalScale: {x: 0.91927105, y: 0.97333026, z: 0.91927105}
   m_Children: []
   m_Father: {fileID: 576287196}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 138.926, y: 0, z: 0}
 --- !u!136 &1756225620
 CapsuleCollider:
@@ -1041,7 +1041,7 @@ Transform:
   m_LocalScale: {x: 10.012389, y: 10.012389, z: 10.012389}
   m_Children: []
   m_Father: {fileID: 576287196}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &1777349821
 SphereCollider:
@@ -1136,7 +1136,7 @@ Transform:
   m_LocalScale: {x: 6.8212934, y: 0.7736313, z: 6.8212934}
   m_Children: []
   m_Father: {fileID: 576287196}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 90, y: 90, z: 0}
 --- !u!136 &1934384262
 CapsuleCollider:
@@ -1245,5 +1245,5 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 576287196}
-  m_RootOrder: 7
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: -20, y: 0, z: 0}
